@@ -8,7 +8,9 @@ const Hero = () => {
       <h2 className="text-2xl font-bold w-2/3">
         Creating software solutions for small businesses.
       </h2>
-      <HeroImage />
+      <div className="self-end h-5/6 w-5/6 py-10">
+        <HeroImage />
+      </div>
     </div>
   );
 };

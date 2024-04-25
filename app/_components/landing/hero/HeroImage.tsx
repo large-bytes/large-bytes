@@ -3,9 +3,7 @@
 const HeroImage: React.FC = () => {
   return (
     <svg
-      className="self-end"
-      width="75%"
-      height="75%"
+      className="w-full h-full"
       xmlns="http://www.w3.org/2000/svg"
       xmlSpace="preserve"
       style={{
