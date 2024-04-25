@@ -18,7 +18,7 @@ const ProductContainer: React.FC = () => {
         <ProductImage />
       </div>
       <div className="flex items-center bg-secondary-green p-2">
-        <p className="py-4">
+        <p className="py-4 font-bold">
           Stay connected with us on LinkedIn to hear about updates and the
           expected release.
         </p>
