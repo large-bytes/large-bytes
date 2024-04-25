@@ -23,7 +23,7 @@ const values = [
 
 const Values = () => {
   return (
-    <section className="p-2.5">
+    <section className="px-2.5 pt-2 pb-16">
       <SectionTitle>Our Values</SectionTitle>
       {values &&
         values.map((item) => (
