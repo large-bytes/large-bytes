@@ -1,5 +1,6 @@
 // file: largebytes/app/_components/values/Values.tsx
 
+import SectionTitle from "../utils/SectionTitle";
 import Value from "./Value";
 
 const values = [
@@ -23,7 +24,7 @@ const values = [
 const Values = () => {
   return (
     <section className="p-2.5">
-      <h2 className="text-2xl font-bold my-8">Our Values</h2>
+      <SectionTitle>Our Values</SectionTitle>
       {values &&
         values.map((item) => (
           <Value
