@@ -9,7 +9,10 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        'primary-blue': '#1BA1E4',
+        "txt-blue": "#0F4E6E",
+        "primary-blue": "#1BA1E4",
+        "primary-green": "#1BE4C2",
+        "secondary-green": "#DBFBF5",
       },
     },
   },
