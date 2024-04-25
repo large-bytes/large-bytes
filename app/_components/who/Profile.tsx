@@ -24,11 +24,11 @@ const Profile: React.FC<ProfileProps> = ({
     <div className="flex flex-col gap-8 items-center">
       <div className="flex justify-center w-9/12 max-w-sm">
         <Image
+          className="w-full h-full"
           width={600}
           height={600}
           alt={alt}
           src={src}
-          layout="responsive"
         />
       </div>
       <div className="bg-white flex flex-col px-2 py-5 gap-5">
