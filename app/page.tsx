@@ -1,3 +1,4 @@
+import Footer from "./_components/footer/Footer";
 import Landing from "./_components/landing/Landing";
 import Products from "./_components/products/Products";
 import Values from "./_components/values/Values";
@@ -10,6 +11,7 @@ export default function Home() {
       <Values />
       <Who />
       <Products />
+      <Footer />
     </>
   );
 }
