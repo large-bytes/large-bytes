@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
         <LargeBytesLogo />
       </div>
       <p className="py-10 leading-relaxed bg-txt-blue w-full text-white text-center text-xs">
-        LARGE BYTES ©️ 2024
+        LARGE BYTES &copy; 2024
       </p>
     </footer>
   );
