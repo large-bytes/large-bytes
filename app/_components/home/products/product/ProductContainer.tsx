@@ -17,12 +17,15 @@ const ProductContainer: React.FC = () => {
       <div className="flex justify-center pb-10">
         <ProductImage />
       </div>
-      <div className="flex items-center bg-secondary-green p-2">
+      <div className="flex items-center bg-accent-red p-2">
         <p className="py-4 font-bold">
           Stay connected with us on LinkedIn to hear about updates and the
           expected release.
         </p>
-        <a href="https://www.linkedin.com/company/large-bytes">
+        <a
+          className="hover:scale-110 duration-200"
+          href="https://www.linkedin.com/company/large-bytes"
+        >
           <LinkedInLogo />
         </a>
       </div>

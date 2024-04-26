@@ -37,7 +37,11 @@ const Profile: React.FC<ProfileProps> = ({
             <div className="text-2xl font-semibold">{name}</div>
             <div className="text-2xl font-light">{title}</div>
           </div>
-          <a target="_blank" href={linkedin}>
+          <a
+            className="hover:scale-110 duration-200"
+            target="_blank"
+            href={linkedin}
+          >
             <LinkedInLogo />
           </a>
         </div>

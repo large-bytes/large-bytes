@@ -14,6 +14,7 @@ const config: Config = {
         "primary-green": "#1BE4C2",
         "secondary-blue": "#DBF0FB",
         "secondary-green": "#DBFBF5",
+        "accent-red": "#FF8B8B"
       },
     },
   },
