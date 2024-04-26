@@ -26,6 +26,7 @@ const ProductContainer: React.FC = () => {
           className="hover:scale-110 duration-200"
           href="https://www.linkedin.com/company/large-bytes"
           aria-label="Large Byte's LinkedIn page."
+          target="_blank"
         >
           <LinkedInLogo />
         </a>
