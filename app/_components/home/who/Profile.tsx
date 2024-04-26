@@ -21,7 +21,7 @@ const Profile: React.FC<ProfileProps> = ({
   text,
 }) => {
   return (
-    <div className="flex flex-col gap-8 items-center">
+    <div className="flex flex-col gap-8 items-center max-w-md">
       <div className="flex justify-center w-9/12 max-w-sm">
         <Image
           className="w-full h-full"
@@ -40,6 +40,7 @@ const Profile: React.FC<ProfileProps> = ({
           <a
             className="hover:scale-110 duration-200"
             target="_blank"
+            aria-label={`${name}'s LinkedIn profile`}
             href={linkedin}
           >
             <LinkedInLogo />

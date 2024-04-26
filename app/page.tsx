@@ -8,9 +8,11 @@ export default function Home() {
   return (
     <>
       <Landing />
-      <Values />
-      <Who />
-      <Products />
+      <div className="max-w-5xl flex flex-col items-center">
+        <Values />
+        <Who />
+        <Products />
+      </div>
       <Footer />
     </>
   );

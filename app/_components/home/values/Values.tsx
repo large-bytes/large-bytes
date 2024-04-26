@@ -23,17 +23,19 @@ const values = [
 
 const Values = () => {
   return (
-    <section className="px-2.5 pt-2 pb-16">
+    <section className="px-2.5 pt-2 pb-16 w-full lg:px-5">
       <SectionTitle>Our Values</SectionTitle>
-      {values &&
-        values.map((item) => (
-          <Value
-            key={item.count}
-            count={item.count}
-            title={item.title}
-            text={item.text}
-          />
-        ))}
+      <div className="flex flex-col items-center">
+        {values &&
+          values.map((item) => (
+            <Value
+              key={item.count}
+              count={item.count}
+              title={item.title}
+              text={item.text}
+            />
+          ))}
+      </div>
     </section>
   );
 };

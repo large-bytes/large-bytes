@@ -8,7 +8,7 @@ type ValueProps = {
 
 const Value: React.FC<ValueProps> = ({ count, title, text }) => {
   return (
-    <article className="bg-secondary-blue p-3 my-6">
+    <article className="bg-secondary-blue p-3 my-6 max-w-lg">
       <div className="flex gap-4 items-center mb-4">
         <div className="bg-primary-green text-xl font-black p-2 text-center flex items-center justify-center w-10 h-10 rounded-full">
           {count}

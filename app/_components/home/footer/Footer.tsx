@@ -4,7 +4,7 @@ import LargeBytesLogo from "../../utils/LargeBytesLogo";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="flex flex-col items-center bg-secondary-green">
+    <footer className="flex flex-col items-center bg-secondary-green w-full">
       <div className="my-32">
         <LargeBytesLogo />
       </div>

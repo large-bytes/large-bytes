@@ -24,9 +24,9 @@ const profiles = [
 
 const Who = () => {
   return (
-    <section className="flex flex-col py-4 px-5 bg-secondary-blue">
+    <section className="flex flex-col py-4 px-2.5 lg:p-5 bg-secondary-blue w-full">
       <SectionTitle>Who We Are</SectionTitle>
-      <div className="flex flex-col gap-16 py-8">
+      <div className="flex flex-wrap justify-center gap-16 py-8">
         {profiles &&
           profiles.map((profile) => (
             <Profile key={profile.name} {...profile} />

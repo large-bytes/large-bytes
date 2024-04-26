@@ -6,7 +6,7 @@ import ProductImage from "./PlanndImage";
 
 const ProductContainer: React.FC = () => {
   return (
-    <div className="border-black border-4 pb-10">
+    <div className="border-black border-4 pb-10 max-w-lg">
       <div className="bg-primary-green pl-2 w-1/2">
         <SectionTitle>Plannd</SectionTitle>
       </div>
@@ -25,6 +25,7 @@ const ProductContainer: React.FC = () => {
         <a
           className="hover:scale-110 duration-200"
           href="https://www.linkedin.com/company/large-bytes"
+          aria-label="Large Byte's LinkedIn page."
         >
           <LinkedInLogo />
         </a>
