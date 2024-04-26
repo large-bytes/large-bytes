@@ -13,8 +13,8 @@ The site's main purpose is to explain who we are and what we aim to achieve.
 - `NextJS 14`
   - Built with NextJS to use the server-side rendering for better SEO.
   - Ease of deployment with GitHub Vercel workflow.
-- `React`
-  - Building reusable components.
+- `React` with `TypeScript`
+  - Building reusable components with type safety.
   - Use `useState` and `useEffect` hooks to create subtle starter image animations.
 - `Tailwind CSS`
   - Some minor tweaks were made to the config for branded colours.
