@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# [Large Bytes - Company Website](https://www.largebytes.co.uk/)
 
-## Getting Started
+<img width="300px" height="300px" src="https://github.com/large-bytes/large-bytes/assets/19231569/465dd08a-86c1-45ef-8f20-003587eeb7c7">
 
-First, run the development server:
+## Site Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The site's main purpose is to explain who we are and what we aim to achieve. 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+😀 But while you're here, let's see how this site was built.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Technology Notes
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- `NextJS 14`
+  - Built with NextJS to use the server-side rendering for better SEO.
+  - Ease of deployment with GitHub Vercel workflow.
+- `React`
+  - Building reusable components.
+  - Use `useState` and `useEffect` hooks to create subtle starter image animations.
+- `Tailwind CSS`
+  - Some minor tweaks were made to the config for branded colours.
+  - Practice in a popular framework that enables all CSS design experience to be involved.
+- `SVG` - `Affinity Designer`
+  - Building SVGs from scratch for the lowest image size.
+  - Able to manipulate specific parts of the image.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## Playing with the build
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Run the development server:
+  ```bash
+  npm run dev
+  ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+2. Open [http://localhost:3000](http://localhost:3000) with your browser to play with the code.
