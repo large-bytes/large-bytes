@@ -1,6 +1,6 @@
 // file: largebytes/app/_components/products/Products.tsx
 
-import SectionTitle from "../utils/SectionTitle";
+import SectionTitle from "../../utils/SectionTitle";
 import ProductsImage from "./ProductsImage";
 import ProductContainer from "./product/ProductContainer";
 

@@ -1,6 +1,6 @@
 // file: largebytes/app/_components/values/Values.tsx
 
-import SectionTitle from "../utils/SectionTitle";
+import SectionTitle from "../../utils/SectionTitle";
 import Value from "./Value";
 
 const values = [

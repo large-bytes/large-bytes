@@ -1,7 +1,7 @@
 // file: largebytes/app/_components/products/product/ProductContainer.tsx
 
-import LinkedInLogo from "../../utils/LinkedInLogo";
-import SectionTitle from "../../utils/SectionTitle";
+import LinkedInLogo from "../../../utils/LinkedInLogo";
+import SectionTitle from "../../../utils/SectionTitle";
 import ProductImage from "./PlanndImage";
 
 const ProductContainer: React.FC = () => {

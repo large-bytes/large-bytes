@@ -1,9 +1,8 @@
 // file: largebytes/app/_components/Landing.tsx
 
-import Button from "../utils/Button";
+import Button from "../../utils/Button";
 import Header from "./Header";
 import Hero from "./hero/Hero";
-
 
 const Landing: React.FC = () => {
   return (

@@ -1,7 +1,7 @@
 // file: largebytes/app/_components/who/Profile.tsx
 
 import Image from "next/image";
-import LinkedInLogo from "../utils/LinkedInLogo";
+import LinkedInLogo from "../../utils/LinkedInLogo";
 
 type ProfileProps = {
   alt: string;

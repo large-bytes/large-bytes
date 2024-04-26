@@ -1,6 +1,6 @@
 // file: largebytes/app/_components/landing/Header.tsx
 
-import LogoSmall from "../utils/LogoSmall";
+import LogoSmall from "../../utils/LogoSmall";
 
 const Header: React.FC = () => {
   return (

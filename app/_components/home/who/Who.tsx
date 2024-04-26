@@ -1,6 +1,6 @@
 // file: largebytes/app/_components/who/Who.tsx
 
-import SectionTitle from "../utils/SectionTitle";
+import SectionTitle from "../../utils/SectionTitle";
 import Profile from "./Profile";
 
 const profiles = [

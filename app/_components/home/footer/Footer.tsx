@@ -1,6 +1,6 @@
 // file: largebytes/app/_components/footer/Footer.tsx
 
-import LargeBytesLogo from "../utils/LargeBytesLogo";
+import LargeBytesLogo from "../../utils/LargeBytesLogo";
 
 const Footer: React.FC = () => {
   return (
@@ -8,7 +8,9 @@ const Footer: React.FC = () => {
       <div className="my-32">
         <LargeBytesLogo />
       </div>
-      <p className="py-10 leading-relaxed bg-txt-blue w-full text-white text-center text-xs">LARGE BYTES ©️ 2024</p>
+      <p className="py-10 leading-relaxed bg-txt-blue w-full text-white text-center text-xs">
+        LARGE BYTES ©️ 2024
+      </p>
     </footer>
   );
 };
