@@ -10,7 +10,7 @@ const Landing: React.FC = () => {
       <div className="flex flex-col gap-10 pb-10 w-full max-w-5xl">
         <Header />
         <Hero />
-        <Button>Explore Products</Button>
+        <Button inpageLink="#products">Explore Products</Button>
       </div>
     </section>
   );

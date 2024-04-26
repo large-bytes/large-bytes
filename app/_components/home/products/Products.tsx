@@ -6,7 +6,7 @@ import ProductContainer from "./product/ProductContainer";
 
 const Products = () => {
   return (
-    <section className="px-2.5 pb-10 lg:px-5">
+    <section id="products" className="px-2.5 pb-10 lg:px-5">
       <SectionTitle>Products</SectionTitle>
       <div className="flex justify-center pb-10">
         <ProductsImage />
