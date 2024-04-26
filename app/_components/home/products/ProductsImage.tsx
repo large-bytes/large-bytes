@@ -3,7 +3,7 @@
 const ProductsImage = () => {
   return (
     <svg
-      className="w-3/4"
+      className="w-3/4 max-w-xl"
       xmlns="http://www.w3.org/2000/svg"
       xmlSpace="preserve"
       style={{
