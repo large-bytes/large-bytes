@@ -5,7 +5,7 @@ const useLoading = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // immitate loading
+    // imitate loading
     const timer = setTimeout(() => {
       setLoading(false);
     }, 800);
