@@ -1,18 +1,9 @@
 // file: largebytes/app/_components/HeroImage.tsx
 "use client";
-import { useState, useEffect } from "react";
+import useLoading from "@/app/_components/hooks/useLoading";
 
 const HeroImage: React.FC = () => {
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    // immitate loading
-    const timer = setTimeout(() => {
-      setLoading(false);
-    }, 800);
-
-    return () => clearTimeout(timer);
-  }, []);
+  const loading = useLoading();
 
   return (
     <svg
@@ -28,7 +19,12 @@ const HeroImage: React.FC = () => {
       }}
       viewBox="0 0 1232 630"
     >
-      <g className={`duration-1000 ease-out ${loading ? '-translate-x-full opacity-0' : 'translate-x-0'}`} id="left">
+      <g
+        className={`duration-1000 ease-out ${
+          loading ? "-translate-x-full opacity-0" : "translate-x-0"
+        }`}
+        id="left"
+      >
         <g id="chip-left">
           <path
             d="M0 0h600v600H0z"
@@ -286,7 +282,12 @@ const HeroImage: React.FC = () => {
           />
         </g>
       </g>
-      <g className={`duration-1000 ease-out ${loading ? 'translate-x-full opacity-0' : 'translate-x-0'}`} id="right">
+      <g
+        className={`duration-1000 ease-out ${
+          loading ? "translate-x-full opacity-0" : "translate-x-0"
+        }`}
+        id="right"
+      >
         <path
           d="M0 0h600v600H0z"
           style={{
@@ -491,7 +492,12 @@ const HeroImage: React.FC = () => {
           />
         </g>
       </g>
-      <g className={`duration-1000 ease-out ${loading ? '-translate-y-full opacity-0' : 'translate-y-0'}`} id="middle">
+      <g
+        className={`duration-1000 ease-out ${
+          loading ? "-translate-y-full opacity-0" : "translate-y-0"
+        }`}
+        id="middle"
+      >
         <g id="chip-middle">
           <path
             d="M0 0h600v600H0z"
