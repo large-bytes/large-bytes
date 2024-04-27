@@ -1,8 +1,8 @@
 // file: app/_components/hooks/useLoading.tsx
 import { useState, useEffect } from "react";
 
-const useLoading = () => {
-  const [loading, setLoading] = useState(true);
+const useLoading = (): boolean => {
+  const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
     // imitate loading
