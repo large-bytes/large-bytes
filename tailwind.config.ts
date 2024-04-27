@@ -8,7 +8,6 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      scrollBehavior: ['smooth', 'auto'],
       colors: {
         "txt-blue": "#0F4E6E",
         "primary-blue": "#1BA1E4",
