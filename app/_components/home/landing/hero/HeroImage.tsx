@@ -3,7 +3,7 @@
 import useLoading from "@/app/_components/hooks/useLoading";
 
 const HeroImage: React.FC = () => {
-  const loading = useLoading();
+  const loading: boolean = useLoading();
 
   return (
     <svg
