@@ -10,7 +10,7 @@ const profiles = [
     name: "Tom Fyfe",
     title: "Backend Developer",
     linkedin: "https://www.linkedin.com/in/tomfyfe/",
-    text: "Experienced building organised, well tested products specialising in Python with Django. Tom let’s loose as a talented musician playing drums around the country when he’s not at his keyboard.",
+    text: "Experienced building organised, well tested products specialising in Python with Django. Tom lets loose as a talented musician playing drums around the country when he’s not at his keyboard.",
   },
   {
     alt: "Character of Joe",
