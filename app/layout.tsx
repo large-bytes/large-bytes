@@ -12,6 +12,9 @@ export const metadata: Metadata = {
     { name: "Joe Lander", url: "https://www.linkedin.com/in/josephclander/" },
     { name: "Tom Fyfe", url: "https://www.linkedin.com/in/tomfyfe/" },
   ],
+  metadataBase: process.env.VERCEL_URL
+    ? new URL(`https://largebytes.co.uk`)
+    : new URL(`http://localhost:${process.env.PORT || 3000}`),
   keywords: [
     "software solutions for small businesses",
     "custom software development",
