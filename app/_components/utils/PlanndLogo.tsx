@@ -1,6 +1,6 @@
-// file: largebytes/app/_components/products/product/PlanndImage.tsx
+// file: app/_components/utils/PlanndLogo.tsx
 
-const ProductImage = () => {
+const PlanndLogo = () => {
   return (
     <svg
       className="w-3/5 h-full"
@@ -368,4 +368,4 @@ const ProductImage = () => {
   );
 };
 
-export default ProductImage;
+export default PlanndLogo;
