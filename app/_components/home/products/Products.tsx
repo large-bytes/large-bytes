@@ -2,7 +2,26 @@
 
 import SectionTitle from "../../utils/SectionTitle";
 import ProductsImage from "./ProductsImage";
-import ProductContainer from "./product/ProductContainer";
+import ProductContainer from "./product/ProductContainer/ProductContainer";
+import PlanndLogo from "./product/PlanndLogo";
+import { ReactNode } from "react";
+
+
+export type ProductInfoProps = {
+  name: string;
+  info: string;
+  image: ReactNode;
+  url: string;
+  isReady: boolean;
+};
+
+const productInfo: ProductInfoProps = {
+  name: "Plannd",
+  info: "A company rota tool. Helping small businesses to plan their monthly staffing. Minimalist interface for easy use.",
+  image: <PlanndLogo />,
+  url: "https://plannd.largebytes.co.uk/",
+  isReady: false,
+};
 
 const Products = () => {
   return (
@@ -12,7 +31,7 @@ const Products = () => {
         <ProductsImage />
       </div>
       <div className="flex flex-wrap justify-center">
-        <ProductContainer />
+        <ProductContainer {...productInfo}  />
       </div>
     </section>
   );
