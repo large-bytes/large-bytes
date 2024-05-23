@@ -3,9 +3,9 @@
 import SectionTitle from "../../utils/SectionTitle";
 import ProductsImage from "./ProductsImage";
 import ProductContainer from "./product/ProductContainer/ProductContainer";
-import PlanndLogo from "./product/PlanndLogo";
 import { ReactNode } from "react";
-
+import PlanndLogo from "../../utils/PlanndLogo";
+import CalmPlanLogo from "../../utils/CalmPlanLogo";
 
 export type ProductInfoProps = {
   name: string;
@@ -15,13 +15,24 @@ export type ProductInfoProps = {
   isReady: boolean;
 };
 
-const productInfo: ProductInfoProps = {
-  name: "Plannd",
-  info: "A company rota tool. Helping small businesses to plan their monthly staffing. Minimalist interface for easy use.",
-  image: <PlanndLogo />,
-  url: "https://plannd.largebytes.co.uk/",
-  isReady: false,
-};
+type ProductsProps = ProductInfoProps[];
+
+const products: ProductsProps = [
+  {
+    name: "Plannd",
+    info: "A company rota tool. Helping small businesses to plan their monthly staffing. Minimalist interface for easy use.",
+    image: <PlanndLogo />,
+    url: "https://plannd.largebytes.co.uk/",
+    isReady: false,
+  },
+  {
+    name: "CalmPlan",
+    info: "A place to record tasks and prioritise without getting overwhelmed.",
+    image: <CalmPlanLogo />,
+    url: "https://calmplan.largebytes.co.uk/",
+    isReady: false,
+  },
+];
 
 const Products = () => {
   return (
@@ -30,8 +41,11 @@ const Products = () => {
       <div className="flex justify-center pb-10">
         <ProductsImage />
       </div>
-      <div className="flex flex-wrap justify-center">
-        <ProductContainer {...productInfo}  />
+      <div className="flex flex-wrap justify-center gap-8">
+        {products &&
+          products.map((product) => (
+            <ProductContainer key={product.name} {...product} />
+          ))}
       </div>
     </section>
   );

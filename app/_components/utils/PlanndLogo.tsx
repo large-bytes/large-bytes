@@ -1,4 +1,4 @@
-// file: largebytes/app/_components/products/product/PlanndLogo.tsx
+// file: app/_components/utils/PlanndLogo.tsx
 
 const PlanndLogo = () => {
   return (
