@@ -7,7 +7,7 @@ import ButtonExternal from "@/app/_components/utils/ButtonExternal";
 
 const ProductContainer: React.FC<ProductInfoProps> = (product) => {
   return (
-    <div className="border-black border-4 pb-10 max-w-lg flex flex-col">
+    <div className="border-black border-4 pb-10 max-w-md flex flex-col">
       <div className="w-1/2">
         <SectionTitle colorClass={"bg-primary-green"}>
           {product.name}
